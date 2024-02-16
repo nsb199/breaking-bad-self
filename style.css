@@ -16,6 +16,9 @@
     border-radius: 20px;
 }
 
+#centrekaro{
+    text-align: center;
+}
 body{
  background-image: url("https://wallpaper.dog/large/20505923.jpg");
  background-repeat: no-repeat;
@@ -76,8 +79,20 @@ body{
     list-style-position: inside;
 
 }
+.chotatable{
+    background-image: url(https://media.wired.com/photos/5b33447fa2bff9692c40a1fc/master/w_1600%2Cc_limit/BB_2.jpg);
+    border-radius: 20px;
+    padding: 19px;
+    padding-bottom: 19px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    background-size: cover;
+    background-repeat: no-repeat;
+ background-attachment:scroll;
+}
+
 .Characters{
-    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/889/238/desktop-wallpaper-breaking-bad-walter-white-bryan-cranston-skyler-white-anna-gunn-jesse-pinkman-2048x1448-skyler-white.jpg);
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/967/214/479/minimalistic-breaking-bad-meth-walter-white-heisenberg-1920x1080-abstract-breaking-bad-hd-art-wallpaper-preview.jpg);
     border-radius: 20px;
     padding: 19px;
     padding-bottom: 19px;
@@ -174,6 +189,17 @@ table {
         overflow-x: auto; /* Add horizontal scroll if needed */
       
     
+    }
+    .chotatable{
+        background-image: url(https://media.wired.com/photos/5b33447fa2bff9692c40a1fc/master/w_1600%2Cc_limit/BB_2.jpg);
+        border-radius: 20px;
+        padding: 19px;
+        padding-bottom: 19px;
+        margin-top: 19px;
+        margin-bottom: 19px;
+        background-size: cover;
+        background-repeat: no-repeat;
+     background-attachment:scroll;
     }
     .right-aligned li {
         
