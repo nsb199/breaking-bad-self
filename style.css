@@ -50,7 +50,7 @@ body{
     color: rgb(255, 255, 255);
     background-image: url(https://cdn.britannica.com/49/251849-050-54AE4F9E/bryan-cranston-aaron-paul-breaking-bad.jpg);
     background-size:cover;
-    background-repeat: no-repeat;
+        background-repeat: no-repeat;
  background-attachment:scroll;
 }
 .s4{
@@ -72,7 +72,7 @@ body{
    justify-content: flex-end;
    padding-inline-start: 0%;
    list-style-type: none;
-    text-align: right;
+    text-align:end;
     list-style-position: inside;
 
 }
@@ -135,7 +135,7 @@ table {
          color: rgb(255, 255, 255);
          background-image: url(https://preview.redd.it/this-pic-goes-hard-feel-free-to-screenshot-jokes-aside-i-v0-79wmojv4dwcb1.jpg?width=640&crop=smart&auto=webp&s=699ffb4229e4b0294ec7d4b2db407d99b4b16f94);
          
-        background-size: auto;
+        background-size:cover;
          background-repeat: no-repeat;
       background-attachment:scroll;
      }
@@ -165,7 +165,7 @@ table {
     .Characters{
         background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61f5fdab-a19c-49f5-aad6-e343bca87ef5/d5evanw-8f4c1dc7-fab6-4a25-acb8-bba3eeb92373.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYxZjVmZGFiLWExOWMtNDlmNS1hYWQ2LWUzNDNiY2E4N2VmNVwvZDVldmFudy04ZjRjMWRjNy1mYWI2LTRhMjUtYWNiOC1iYmEzZWViOTIzNzMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._NeiHs-OBraa1jj7Zln6KZAALt-1GlZBqU1F56K_BmE);
         
-        background-size: auto;
+        background-size: cover;
         background-repeat: no-repeat;
      background-attachment:scroll;
     
