@@ -20,6 +20,7 @@
     text-align: center;
 }
 body{
+    padding: 50px;
  background-image: url("https://wallpaper.dog/large/20505923.jpg");
  background-repeat: no-repeat;
  background-attachment:scroll;
@@ -80,7 +81,7 @@ body{
 
 }
 .links{
-    padding: 50px;
+    padding: 70px;
     text-align: center;
     
 }
