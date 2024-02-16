@@ -49,11 +49,12 @@ body{
     border-radius: 20px;
     color: rgb(255, 255, 255);
     background-image: url(https://cdn.britannica.com/49/251849-050-54AE4F9E/bryan-cranston-aaron-paul-breaking-bad.jpg);
-    background-size: 100% 100%;
+    background-size:cover;
     background-repeat: no-repeat;
  background-attachment:scroll;
 }
 .s4{
+    
     border-radius: 20px;
     padding: 19px;
     padding-bottom: 19px;
@@ -61,7 +62,7 @@ body{
     margin-bottom: 19px;
     color: rgb(255, 255, 255);
     background-image: url(https://streamcoimg-a.akamaihd.net/000/098/4/984-Banner-L1-d85219f636779e5ff5dade8752764368.jpeg?resize=1440px:*&quality=85);
-    background-size: 100%; 100%;
+    background-size: cover;
     background-repeat: no-repeat;
  background-attachment:scroll;
 }
@@ -82,7 +83,7 @@ body{
     padding-bottom: 19px;
     margin-top: 19px;
     margin-bottom: 19px;
-    background-size: 100%; 100%;
+    background-size: cover;
     background-repeat: no-repeat;
  background-attachment:scroll;
 
@@ -116,6 +117,7 @@ table {
   table tbody tr:hover {
     background-color: #f79595;
   }
+  
 @media only screen and (max-width: 800px){
     .box {
         width: 90%;
@@ -162,11 +164,7 @@ table {
     }
     .Characters{
         background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61f5fdab-a19c-49f5-aad6-e343bca87ef5/d5evanw-8f4c1dc7-fab6-4a25-acb8-bba3eeb92373.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYxZjVmZGFiLWExOWMtNDlmNS1hYWQ2LWUzNDNiY2E4N2VmNVwvZDVldmFudy04ZjRjMWRjNy1mYWI2LTRhMjUtYWNiOC1iYmEzZWViOTIzNzMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._NeiHs-OBraa1jj7Zln6KZAALt-1GlZBqU1F56K_BmE);
-        border-radius: 20px;
-        padding: 19px;
-        padding-bottom: 19px;
-        margin-top: 19px;
-        margin-bottom: 19px;
+        
         background-size: auto;
         background-repeat: no-repeat;
      background-attachment:scroll;
@@ -177,5 +175,13 @@ table {
       
     
     }
+    .right-aligned li {
+        
+    
+         max-width: 800px; /* Set a maximum width for the container */
+         margin: 0 auto; /* Center the container */
+         overflow-x: auto; /* Add horizontal scroll if needed */
+       
+     }
     
 }
