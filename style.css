@@ -50,7 +50,8 @@ body{
 }
 .episodeswalidiv{
    padding: 19px;
-   margin: 19px;
+   margin-top: 19px;
+    margin-bottom: 19px;
     border-radius: 20px;
     color: rgb(255, 255, 255);
     background-image: url(https://cdn.britannica.com/49/251849-050-54AE4F9E/bryan-cranston-aaron-paul-breaking-bad.jpg);
@@ -59,7 +60,7 @@ body{
  background-attachment:scroll;
 }
 .s4{
-    margin: 19px;
+   
     border-radius: 20px;
     padding: 19px;
     padding-bottom: 19px;
