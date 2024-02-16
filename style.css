@@ -79,17 +79,12 @@ body{
     list-style-position: inside;
 
 }
-.chotatable{
-    background-image: url(https://media.wired.com/photos/5b33447fa2bff9692c40a1fc/master/w_1600%2Cc_limit/BB_2.jpg);
-    border-radius: 20px;
-    padding: 19px;
-    padding-bottom: 19px;
-    margin-top: 19px;
-    margin-bottom: 19px;
-    background-size: cover;
-    background-repeat: no-repeat;
- background-attachment:scroll;
+.links{
+    padding: 50px;
+    text-align: center;
+    
 }
+
 
 .Characters{
     background-image: url(https://c4.wallpaperflare.com/wallpaper/967/214/479/minimalistic-breaking-bad-meth-walter-white-heisenberg-1920x1080-abstract-breaking-bad-hd-art-wallpaper-preview.jpg);
