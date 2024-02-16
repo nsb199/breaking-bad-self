@@ -32,6 +32,7 @@ body{
 
 .fontq{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
 }
 .fontqq{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -74,6 +75,47 @@ body{
     list-style-position: inside;
 
 }
+.Characters{
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/889/238/desktop-wallpaper-breaking-bad-walter-white-bryan-cranston-skyler-white-anna-gunn-jesse-pinkman-2048x1448-skyler-white.jpg);
+    border-radius: 20px;
+    padding: 19px;
+    padding-bottom: 19px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    background-size: 100%; 100%;
+    background-repeat: no-repeat;
+ background-attachment:scroll;
+
+
+}
+table {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    font-style: italic;
+    font-weight: lighter;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table th {
+    background-color: #cec6f8;
+    text-align: left;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #76cdf0;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f79595;
+  }
 @media only screen and (max-width: 800px){
     .box {
         width: 90%;
@@ -118,4 +160,22 @@ body{
         font-style: oblique;
         color: rgb(255, 255, 251);
     }
+    .Characters{
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61f5fdab-a19c-49f5-aad6-e343bca87ef5/d5evanw-8f4c1dc7-fab6-4a25-acb8-bba3eeb92373.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYxZjVmZGFiLWExOWMtNDlmNS1hYWQ2LWUzNDNiY2E4N2VmNVwvZDVldmFudy04ZjRjMWRjNy1mYWI2LTRhMjUtYWNiOC1iYmEzZWViOTIzNzMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._NeiHs-OBraa1jj7Zln6KZAALt-1GlZBqU1F56K_BmE);
+        border-radius: 20px;
+        padding: 19px;
+        padding-bottom: 19px;
+        margin-top: 19px;
+        margin-bottom: 19px;
+        background-size: auto;
+        background-repeat: no-repeat;
+     background-attachment:scroll;
+    
+ max-width: 800px; /* Set a maximum width for the container */
+        margin: 0 auto; /* Center the container */
+        overflow-x: auto; /* Add horizontal scroll if needed */
+      
+    
+    }
+    
 }
