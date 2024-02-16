@@ -104,20 +104,28 @@ body{
 
 
 }
+a {
+    text-decoration: none; 
+    -webkit-text-stroke: 0.5px black;
+    font-weight: bold; 
+    color: #8a8484;
+  }
 table {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-    font-style: italic;
-    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 0.5px black;
+    text-align: center;
+    color: rgb(199, 164, 7);
+    
+    
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
   }
   
   table th, table td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    border: 9px solid #f7e69f;
+    border-style:solid;
+    padding: 19px;
   }
   
   table th {
