@@ -105,4 +105,17 @@ body{
         background-repeat: no-repeat;
      background-attachment:scroll;
     }
+    .fontw{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: xx-large;
+        font-style: oblique;
+        color: rgb(255, 255, 251);
+    
+    }
+    .fontqq{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: xx-large;
+        font-style: oblique;
+        color: rgb(255, 255, 251);
+    }
 }
