@@ -9,7 +9,7 @@
        
 }
 .box:hover{
-    box-shadow: 7px 6px 7px black;
+    box-shadow: 19px 16px 7px black;
 }
 .img{
     width: 100%;
@@ -20,7 +20,7 @@ body{
  background-image: url("https://wallpaper.dog/large/20505923.jpg");
  background-repeat: no-repeat;
  background-attachment:scroll;
- 
+ background-size: 100% 100%; 
 }
 .fontw{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -46,6 +46,8 @@ body{
 
 }
 .episodeswalidiv{
+   padding: 19px;
+    border-radius: 20px;
     color: rgb(255, 255, 255);
     background-image: url(https://m.media-amazon.com/images/M/MV5BMTJiMzgwZTktYzZhZC00YzhhLWEzZDUtMGM2NTE4MzQ4NGFmXkEyXkFqcGdeQWpybA@@._V1_.jpg);
     background-size: 100% 100%;
@@ -53,10 +55,56 @@ body{
  background-attachment:scroll;
 }
 .s4{
+    border-radius: 20px;
+    padding: 19px;
+    padding-bottom: 19px;
+    margin-top: 19px;
+    margin-bottom: 19px;
     color: rgb(255, 255, 255);
     background-image: url(https://streamcoimg-a.akamaihd.net/000/098/4/984-Banner-L1-d85219f636779e5ff5dade8752764368.jpeg?resize=1440px:*&quality=85);
+    background-size: 100%; 100%;
+    background-repeat: no-repeat;
+ background-attachment:scroll;
+}
+.right-aligned li {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   padding-inline-start: 0%;
+   list-style-type: none;
+    text-align: right;
+    list-style-position: inside;
 
 }
-.right-aligned{
-    margin-left: 1000px;
+@media only screen and (max-width: 800px){
+    .box {
+        width: 90%;
+        
+       
+            margin: auto;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 4px 3px 10px black;
+           
+    }
+    .episodeswalidiv{
+        padding: 19px;
+         border-radius: 20px;
+         color: rgb(255, 255, 255);
+         background-image: url(https://m.media-amazon.com/images/M/MV5BMTJiMzgwZTktYzZhZC00YzhhLWEzZDUtMGM2NTE4MzQ4NGFmXkEyXkFqcGdeQWpybA@@._V1_.jpg);
+         background-size: auto;
+        
+         background-repeat: no-repeat;
+      background-attachment:scroll;
+     }
+     .s4{
+        border-radius: 20px;
+        padding: 19px;
+        margin-top: 19px;
+        color: rgb(255, 255, 255);
+        background-image: url(https://streamcoimg-a.akamaihd.net/000/098/4/984-Banner-L1-d85219f636779e5ff5dade8752764368.jpeg?resize=1440px:*&quality=85);
+        background-size: auto;
+        background-repeat: no-repeat;
+     background-attachment:scroll;
+    }
 }
