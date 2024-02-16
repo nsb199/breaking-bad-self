@@ -20,7 +20,7 @@
     text-align: center;
 }
 body{
-    padding: 10px;
+    padding: 2px;
  background-image: url("https://wallpaper.dog/large/20505923.jpg");
  background-repeat: no-repeat;
  background-attachment:scroll;
@@ -83,6 +83,7 @@ body{
 }
 .links{
     padding: 19px;
+    margin: 19px;
     text-align: center;
    background-color: #bd715e;
    border-radius: 19px;
@@ -156,7 +157,7 @@ table {
         padding: 19px;
          border-radius: 20px;
          color: rgb(255, 255, 255);
-         background-image: url(https://preview.redd.it/this-pic-goes-hard-feel-free-to-screenshot-jokes-aside-i-v0-79wmojv4dwcb1.jpg?width=640&crop=smart&auto=webp&s=699ffb4229e4b0294ec7d4b2db407d99b4b16f94);
+         background-image: url(https://e1.pxfuel.com/desktop-wallpaper/736/286/desktop-wallpaper-breaking-bad-face-film-art-dark-android-breaking-bad.jpg);
          
         background-size:cover;
          background-repeat: no-repeat;
